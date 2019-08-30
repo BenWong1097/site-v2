@@ -49,7 +49,7 @@ export default function ToggleView(props){
                 <span className="size-16">{curView.employer} </span>
                 <span className="primary size-14">{curView.role}</span>
             </div>
-            <span className="faded">{curView.from} - {curView.to}</span>
+            <span className="faded" style={{paddingLeft: ".5em"}}>{curView.from} - {curView.to}</span>
         </div>
         <div className="exp-detail-container">
             {curView.details.map(
