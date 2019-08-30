@@ -1,6 +1,7 @@
 /* Primary: rgb(168, 207, 58); */
 /* Secondary: rgb(177, 192, 130); */
 /* Tertiary: rgb(112, 139, 38); */
+
 /* General */
 html{
   background: rgb(33, 33, 33);
@@ -11,10 +12,13 @@ html{
   min-width: 350px;
   margin: 5em auto;
 }
-.flex{
+.flex, .flex-start{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.flex-start{
+  justify-content: flex-start;
 }
 .section-title{
   position: relative;
@@ -31,20 +35,32 @@ html{
   background: rgb(168, 207, 58);
   border-radius: 2px;
 }
+
 .primary{
   color: rgb(168, 207, 58);
 }
 .secondary{
   color: rgb(177, 192, 130);
 }
+.faded{
+  color: rgb(183, 183, 183);
+}
+
 .bg-tertiary{
   background: rgb(112, 139, 38);
 }
 .bg{
   background: rgb(33, 33, 33);
 }
+.bg-light{
+  background: rgb(79, 79, 79);
+}
+
 .size-14{
   font-size: 14pt;
+}
+.size-16{
+  font-size: 16pt;
 }
 .size-20{
   font-size: 20pt;
@@ -106,4 +122,39 @@ nav li{
 .landing div{
   margin-top: 0.25em;
   margin-bottom: 0.25em;
+}
+
+/* Experience */
+.exp-tab{
+  position: relative;
+  padding: 1em .5em;
+}
+.exp-tab:after{
+  content: '';
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  left: 20%;
+  top: 3em;
+  background: rgb(168, 207, 58);
+  transition: all 0.2s ease-in-out;
+}
+.exp-tab.bg-light:after{
+  left: 2.5%;
+  width: 95%;
+}
+.exp-tab-list-container{
+  padding: 1em;
+  padding-bottom: 0.1em;
+}
+.exp-detail-container{
+  width: 80%;
+  min-width: 350px;
+  height: 15em;
+}
+.exp-heading{
+  margin-top: 1.25em;
+}
+.exp-heading div{
+  padding: 0.25em;
 }
