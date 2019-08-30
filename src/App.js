@@ -18,8 +18,8 @@ function App() {
       <Landing/>
       <About section={0} skills={Data.Skills} about={Data.About}/>
       <Experience section={1} experience={Data.Experience}/>
-      <Projects section={2}/>
-      <Contact section={3}/>
+      <Projects section={2} projects={Data.Projects}/>
+      <Contact section={3} contact={Data.Contact}/>
       <Footer/>
       <QuickContact/>
     </div>

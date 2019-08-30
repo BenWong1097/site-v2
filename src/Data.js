@@ -44,7 +44,42 @@ const Data = {
                 'Implemented a notification system for group subscriptions supporting many-to-many relationships using the .NET Framework, reducing storage complexity from the preexisting architecture that was in place',
                 'Developed a .NET web application that provides authorized users an intuitive interface to modify their subscriptions to notification groups, removing the need to contact a DBA for each revision'
         ]},
-    ]
+    ],
+    Projects: [
+        {
+            name: "Course Scheduler",
+            description: "An intuitive web application designed assist students in planning their classes.",
+            tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAuth'],
+            github: '',
+            demo: ''
+        },
+        {
+            name: "Course Scheduler",
+            description: "An intuitive web application designed assist students in planning their classes.",
+            tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAuth'],
+            github: '',
+            demo: ''
+        },
+        {
+            name: "Course Scheduler",
+            description: "An intuitive web application designed assist students in planning their classes.",
+            tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAuth'],
+            github: '',
+            demo: ''
+        },
+        {
+            name: "Course Scheduler",
+            description: "An intuitive web application designed assist students in planning their classes.",
+            tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAssssuth'],
+            github: '',
+            demo: ''
+        }
+    ],
+    Contact: {
+        email: "ben.wong.jamin@gmail.com",
+        github: "https://github.com/BenWong1097",
+        linkedin: "https://www.linkedin.com/in/bwong1097/"
+    }
 }
 
 export default Data;
