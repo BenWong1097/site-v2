@@ -164,3 +164,20 @@ nav li{
 .exp-heading div{
   padding: 0.25em;
 }
+
+/* Projects */
+.project-container{
+  margin: 0.4em;
+  padding: 1.5em;
+  padding-top: 0.5em;
+  background: rgb(62, 67, 46);
+  border-radius: 5px;
+  width: 275px;
+}
+.project-techlist span{
+  padding-right: 1em;
+  font-size: 9pt;
+}
+.project-techlist span:last-child{
+  padding-right: 0;
+}
