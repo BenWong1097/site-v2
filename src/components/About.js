@@ -4,10 +4,10 @@ import BadgeList from './BadgeList';
 import PicCanvas from './PicCanvas';
 import SectionTitle from './SectionTitle';
 
-export default function About(){
+export default function About(props){
     return (
         <div className="container">
-            <SectionTitle index="0" title="About"/>
+            <SectionTitle index={props.section} title="About"/>
             <div className="flex">
                 <div className="size-14" style={{width: "45%", minWidth: "350px"}}>
                     <p style={{marginTop: 0}}>I’m currently a Computer Engineering senior at Texas A&M University set to graduate May 2020.</p>

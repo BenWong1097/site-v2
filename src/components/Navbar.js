@@ -1,12 +1,16 @@
 import React from 'react';
 
+import { Link, animateScroll as scroll} from 'react-scroll';
+
 export default function Navbar(props){
     return (
         <nav>
             <ul>
                 {props.items.map((item, i) => (
                     <li key={`nav_${i}`}>
-                        <span className={'primary'}>[{i}]</span> {item}
+                        <span className={'primary'}>[{i}]</span>
+                        <Link activeClass="active" smooth={true} to={`section${i}`} offset={-50}
+                            className="white"> {item}</Link>
                     </li>
                 ))}
             </ul>

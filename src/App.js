@@ -9,17 +9,19 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import QuickContact from './components/QuickContact';
 
 function App() {
   return (
     <div className="App">
       <Navbar items={Data.NavList}/>
       <Landing/>
-      <About/>
+      <About section={0}/>
       <Experience/>
       <Projects/>
       <Contact/>
       <Footer/>
+      <QuickContact/>
     </div>
   );
 }

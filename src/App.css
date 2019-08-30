@@ -9,6 +9,7 @@ html{
 }
 a{
   color: rgb(168, 207, 58);
+  cursor: pointer;
 }
 a:visited{
   color: rgb(88, 109, 30);
@@ -53,7 +54,12 @@ a:visited{
 .faded{
   color: rgb(183, 183, 183);
 }
-
+.white{
+  color: white;
+}
+.bg-primary{
+  background: rgb(168, 207, 58);
+}
 .bg-tertiary{
   background: rgb(112, 139, 38);
 }
@@ -87,6 +93,10 @@ a:visited{
   font-size: 44pt;
 }
 
+.invis{
+  opacity: 0;
+}
+
 /* BadgeList */
 .badge-list{
   margin: 1em auto;
@@ -117,7 +127,7 @@ a:visited{
 
 /* Nav */
 nav{
-  width: 100%;
+  width: 90%;
 }
 nav ul{
   display: flex;
@@ -208,4 +218,51 @@ nav li{
   display: flex;
   justify-content: center;
   white-space: pre;
+}
+
+/* QuickContact */
+.quick-contact{
+  left: 5%;
+  top: 0;
+  position: fixed;
+  width: 3em;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.quick-contact-line{
+  position: relative;
+  margin: 0 auto;
+  width: 0.2em;
+  height: 25em;
+  border-radius: 1px;
+}
+.quick-contact-line div{
+  position: absolute;
+  top: 2em;
+  padding: 1em 0;
+}
+.quick-contact-line img{
+  width: 3em;
+  position: relative;
+  left: -1.5em;
+  top: 0;
+  margin-bottom: 1em;
+}
+.quick-contact-line img:last-child{
+  margin-bottom: 0;
+}
+div.quick-contact-hover{
+  top: -2.5em;
+  left: -1.5em;
+  width: 3em;
+  text-align: center;
+  transition: opacity 0.1s ease-in-out;
+}
+
+@media only screen and (min-width: 768px){
+  div.quick-contact{
+    display: flex;
+  }
 }
