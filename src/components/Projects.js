@@ -39,7 +39,7 @@ export default function Projects(props){
             <SectionTitle index="2" title="My Projects"/>
             <div className="flex-start">
                 {projects.map(
-                    proj => <Project project={proj}/>
+                    (proj, i) => <Project project={proj} key={`proj_${i}`}/>
                 )}
             </div>
         </div>

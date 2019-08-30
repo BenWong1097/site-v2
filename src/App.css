@@ -146,6 +146,11 @@ nav li{
   margin-bottom: 0.25em;
 }
 
+/* About */
+.about-text p:first-child{
+  margin-top: 0;
+}
+
 /* Experience */
 .exp-tab{
   position: relative;

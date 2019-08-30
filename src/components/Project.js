@@ -11,7 +11,7 @@ export default function Project(props){
             <p className="faded">{proj.description}</p>
             <div className="project-techlist flex-start">
                 {proj.tech.map(
-                    tech => <span>{tech}</span>
+                    (tech, i) => <span key={`tech_${i}`}>{tech}</span>
                 )}
             </div>
         </div>

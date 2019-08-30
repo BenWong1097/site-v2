@@ -16,10 +16,10 @@ function App() {
     <div className="App">
       <Navbar items={Data.NavList}/>
       <Landing/>
-      <About section={0}/>
-      <Experience/>
-      <Projects/>
-      <Contact/>
+      <About section={0} skills={Data.Skills} about={Data.About}/>
+      <Experience section={1}/>
+      <Projects section={2}/>
+      <Contact section={3}/>
       <Footer/>
       <QuickContact/>
     </div>
