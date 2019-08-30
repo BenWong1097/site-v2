@@ -23,6 +23,8 @@ html{
 .section-title{
   position: relative;
   padding-right: 10px;
+  display: inline-block;
+  padding-bottom: 0.25em;
 }
 .section-title:after{
   content: '';
@@ -150,8 +152,7 @@ nav li{
   width: 95%;
 }
 .exp-tab-list-container{
-  padding: 1em;
-  padding-bottom: 0.1em;
+  padding: 0 1em;
 }
 .exp-detail-container{
   width: 80%;
@@ -180,4 +181,14 @@ nav li{
 }
 .project-techlist span:last-child{
   padding-right: 0;
+}
+
+/* Contact */
+.contact-content{
+  margin: auto;
+  width: 80%;
+  min-width: 300px;
+}
+.contact-links a{
+  padding-right: 1em;
 }
