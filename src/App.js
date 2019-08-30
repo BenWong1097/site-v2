@@ -21,7 +21,7 @@ function App() {
       <Projects section={2} projects={Data.Projects}/>
       <Contact section={3} contact={Data.Contact}/>
       <Footer/>
-      <QuickContact/>
+      <QuickContact contact={Data.Contact}/>
     </div>
   );
 }

@@ -253,9 +253,12 @@ nav li{
   position: relative;
   left: -1.5em;
   top: 0;
-  margin-bottom: 1em;
 }
-.quick-contact-line img:last-child{
+.quick-contact-line a{
+  display: block;
+  margin-bottom: 0.5em;
+}
+.quick-contact-line a:last-child{
   margin-bottom: 0;
 }
 div.quick-contact-hover{
