@@ -27,13 +27,13 @@ const Data = {
         ]},
         {
             employer: 'Sabre Corporation',
-            role: 'Galactic Protector',
-            from: 'Feb 2102',
-            to: 'Dec 2102',
+            role: 'Software Developer Intern',
+            from: 'May 2019',
+            to: 'Aug 2019',
             details: [
-                'Collaborate on segue utilizing lorem ipsum dolores with a side of french fries',
-                'Designed algorithms that utilize that apex commander that exists on the fourth plane of existence in order to dilute the radiation of Earth',
-                'Applied a dynamic scheduling algorithm to dictate when the Glorkun army was going to attack Earth, allowing for an accurate predication of when to execute Order Null'
+                'Investigated the current flight pathing algorithm and eliminated observed redundant effort, improving performance in targeted edge cases',
+                'Implemented validation of data values for the flight scheduling service through the use of regex expressions',
+                'Developed a business case that targeted a novel market with technical and financial analysis with a React web application as a proof-of-concept'
         ]},
         {
             employer: 'Tokio Marine HCC',
@@ -47,30 +47,66 @@ const Data = {
     ],
     Projects: [
         {
-            name: "Course Scheduler",
-            description: "An intuitive web application designed assist students in planning their classes.",
-            tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAuth'],
+            name: "AutoBar",
+            description: "A device that concocts drinks! Intended to reduce the burden during rush hours at bars, AutoBar allows users to place their orders online and wait for their drinks to be made.",
+            tech: ['Ruby', 'Rails', 'Twilio API', 'RPi'],
+            tags: ['Collaboration', 'Web App', 'Hardware'],
+            github: '',
+            demo: ''
+        },
+        {
+            name: "TA Application System",
+            description: "Formerly a process done by the department head over the course of a semester, this web application allows for prospective teaching assistants and professors to be matched up with the click of a button!",
+            tech: ['Ruby', 'Rails', 'Google OAuth'],
+            tags: ['Collaboration', 'Web App'],
+            github: '',
+            demo: ''
+        },
+        {
+            name: "BMO",
+            description: "BMO and be more! With the intentions to find a cheap solution to a real problem, we created a device that scans physical documents and outputs the contents to a braille interface.",
+            tech: ['Python', 'RPi', 'Tesseract'],
+            tags: ['Collaboration', 'Tool', 'OCR', 'Hardware'],
             github: '',
             demo: ''
         },
         {
             name: "Course Scheduler",
-            description: "An intuitive web application designed assist students in planning their classes.",
-            tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAuth'],
+            description: "An intuitive web application designed to assist students in planning their classes. No more of that spreadsheet life!",
+            tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAuth', 'AWS RDS'],
+            tags: ['Web App'],
             github: '',
             demo: ''
         },
         {
-            name: "Course Scheduler",
-            description: "An intuitive web application designed assist students in planning their classes.",
-            tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAuth'],
+            name: "Meal Time!",
+            description: "A web-based 2D platformer, fight it out with a friend in this food-filled battlefield. A mini-project made for funsies with my sis. :)",
+            tech: ['CreateJS'],
+            tags: ['Web Game'],
             github: '',
             demo: ''
         },
         {
-            name: "Course Scheduler",
-            description: "An intuitive web application designed assist students in planning their classes.",
-            tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAssssuth'],
+            name: "Shroom Lab!",
+            description: "Embody your inner mad scientist as you infiltrate a lab in search of the coveted giant shroom. Made during a 48-hour game jam!",
+            tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAuth'],
+            tags: ['Web Game', 'Game Jam', 'Chillennium 2017'],
+            github: '',
+            demo: ''
+        },
+        {
+            name: "Fiverr Buyer Request Notifier",
+            description: "Utilizes a web driver notifies sellers when a new potential customer posts a request. Conceived in the year of 2017 so it probably doesn't work but it's still neat!",
+            tech: ['Selenium', 'Python'],
+            tags: ['Tool'],
+            github: '',
+            demo: ''
+        },
+        {
+            name: "Life of Joe",
+            description: "What's with all the bombs and bulls? No idea! Just jam it out to the catchy tune and have some fun with Joe in this rhythm runner as he flashes some moves! Made during my first 48-hour game jam!",
+            tech: ['Game Maker Language (GML)'],
+            tags: ['Game', 'Game Jam', 'Chillennium 2016'],
             github: '',
             demo: ''
         }

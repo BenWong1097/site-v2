@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 export default function Navbar(props){
     return (
-        <nav>
+        <nav className="bg">
             <ul>
                 {props.items.map((item, i) => (
                     <li key={`nav_${i}`}>
