@@ -17,7 +17,7 @@ function App() {
       <Navbar items={Data.NavList}/>
       <Landing/>
       <About section={0} skills={Data.Skills} about={Data.About}/>
-      <Experience section={1}/>
+      <Experience section={1} experience={Data.Experience}/>
       <Projects section={2}/>
       <Contact section={3}/>
       <Footer/>
