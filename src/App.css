@@ -93,6 +93,10 @@ a:visited{
   font-size: 44pt;
 }
 
+.inactive{
+  opacity: 0.2;
+  cursor: not-allowed;
+}
 .invis{
   opacity: 0;
 }
@@ -207,7 +211,7 @@ nav li{
   background: rgb(62, 67, 46);
   border-radius: 5px;
   width: 275px;
-  height: 15em;
+  height: 20em;
   display: flex;
   flex-direction: column;
 }
@@ -222,6 +226,12 @@ nav li{
   font-size: 9pt;
 }
 .project-techlist span:last-child{
+  padding-right: 0;
+}
+.project-links a{
+  padding-right: 0.5em;
+}
+.project-links a:last-child{
   padding-right: 0;
 }
 

@@ -4,8 +4,18 @@ export default function Project(props){
     const proj = props.project;
     return (
         <div className="project-container">
-            <div>
-                {/* Icon and Links */}
+            <div className="flex-start">
+                <div style={{flexGrow: 1}}>
+                    <img src="folder.png" alt="" width={70}/>
+                </div>
+                <div className="project-links">
+                    <a href={proj.github}>
+                        <img className={proj.github.length !== 0 ? '' : 'inactive'} src="/github.png" alt="Github Link"/>
+                    </a>
+                    <a href={proj.demo}>
+                        <img className={proj.demo.length !== 0 ? '' : 'inactive'} src="/link.png" alt="More Info"/>
+                    </a>
+                </div>
             </div>
             <h3>{proj.name}</h3>
             <p className="faded">{proj.description}</p>

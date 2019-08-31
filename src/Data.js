@@ -51,7 +51,7 @@ const Data = {
             description: "A device that concocts drinks! Intended to reduce the burden during rush hours at bars, AutoBar allows users to place their orders online and wait for their drinks to be made.",
             tech: ['Ruby', 'Rails', 'Twilio API', 'RPi'],
             tags: ['Collaboration', 'Web App', 'Hardware'],
-            github: '',
+            github: 'https://github.com/autobar/autobar-app',
             demo: ''
         },
         {
@@ -59,15 +59,23 @@ const Data = {
             description: "Formerly a process done by the department head over the course of a semester, this web application allows for prospective teaching assistants and professors to be matched up with the click of a button!",
             tech: ['Ruby', 'Rails', 'Google OAuth'],
             tags: ['Collaboration', 'Web App'],
-            github: '',
-            demo: ''
+            github: 'https://github.com/WinterIsMissing/TAMatch',
+            demo: 'http://tiny.cc/Taas'
         },
         {
             name: "BMO",
             description: "BMO and be more! With the intentions to find a cheap solution to a real problem, we created a device that scans physical documents and outputs the contents to a braille interface.",
             tech: ['Python', 'RPi', 'Tesseract'],
             tags: ['Collaboration', 'Tool', 'OCR', 'Hardware'],
-            github: '',
+            github: 'https://github.com/BenWong1097/BMO',
+            demo: ''
+        },
+        {
+            name: "Untitled Zombie Game 3",
+            description: "It's dark. Play with your friends in this web game and avoid being infected! Or be a zombie and bite some brainy humans. Literally can't play this alone, by the way. Intended to be a same-room game, the game is fun with some random yelling!",
+            tech: ['Typescript', ],
+            tags: ['Collaboration', 'Web Game'],
+            github: 'https://github.com/autobar/autobar-app',
             demo: ''
         },
         {
@@ -76,30 +84,30 @@ const Data = {
             tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAuth', 'AWS RDS'],
             tags: ['Web App'],
             github: '',
-            demo: ''
+            demo: 'https://open-edu-tamu.herokuapp.com/'
         },
         {
             name: "Meal Time!",
             description: "A web-based 2D platformer, fight it out with a friend in this food-filled battlefield. A mini-project made for funsies with my sis. :)",
             tech: ['CreateJS'],
             tags: ['Web Game'],
-            github: '',
-            demo: ''
+            github: 'https://github.com/BenWong1097/MealTime',
+            demo: 'https://mealtimethegame.herokuapp.com/'
         },
         {
             name: "Shroom Lab!",
             description: "Embody your inner mad scientist as you infiltrate a lab in search of the coveted giant shroom. Made during a 48-hour game jam!",
             tech: ['Angular', 'NodeJS', 'Firebase', 'Google OAuth'],
             tags: ['Web Game', 'Game Jam', 'Chillennium 2017'],
-            github: '',
-            demo: ''
+            github: 'https://github.com/BenWong1097/Chillennium2017ShroomLab',
+            demo: 'https://shroomlab.herokuapp.com/'
         },
         {
             name: "Fiverr Buyer Request Notifier",
             description: "Utilizes a web driver notifies sellers when a new potential customer posts a request. Conceived in the year of 2017 so it probably doesn't work but it's still neat!",
             tech: ['Selenium', 'Python'],
             tags: ['Tool'],
-            github: '',
+            github: 'https://github.com/BenWong1097/Fiverr-Buyer-Request-Notifier',
             demo: ''
         },
         {
@@ -108,7 +116,7 @@ const Data = {
             tech: ['Game Maker Language (GML)'],
             tags: ['Game', 'Game Jam', 'Chillennium 2016'],
             github: '',
-            demo: ''
+            demo: 'https://sgda1.itch.io/life-of-joe'
         }
     ],
     Contact: {

@@ -9,7 +9,7 @@ export default function Navbar(props){
                 {props.items.map((item, i) => (
                     <li key={`nav_${i}`}>
                         <span className={'primary'}>[{i}]</span>
-                        <Link activeClass="active" smooth={true} to={`section${i}`} offset={-50}
+                        <Link activeClass="active" smooth={true} to={`section${i}`} offset={-100}
                             className="white"> {item}</Link>
                     </li>
                 ))}
