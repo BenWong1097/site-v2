@@ -3,7 +3,7 @@ const Data = {
     Skills: [
         {
             color: "rgb(112, 139, 38)",
-            list: ['Python', 'Java', 'Javascript', 'Ruby', 'Lua', 'HTML/CSS']
+            list: ['C++', 'Javascript', 'Ruby', 'Python', 'Java', 'Lua', 'HTML/CSS']
         },
         {
             color: "rgb(60, 58, 207)",
@@ -76,7 +76,7 @@ const Data = {
             tech: ['Typescript', ],
             tags: ['Collaboration', 'Web Game'],
             github: 'https://github.com/autobar/autobar-app',
-            demo: ''
+            demo: 'http://tiny.cc/uz3'
         },
         {
             name: "Course Scheduler",

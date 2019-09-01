@@ -2,6 +2,8 @@ import React from 'react';
 
 export default function Project(props){
     const proj = props.project;
+    const githubClass = proj.github.length !== 0 ? '' : 'inactive';
+    const demoClass = proj.demo.length !== 0 ? '' : 'inactive'
     return (
         <div className="project-container">
             <div className="flex-start">
@@ -9,12 +11,24 @@ export default function Project(props){
                     <img src="folder.png" alt="" width={70}/>
                 </div>
                 <div className="project-links">
-                    <a href={proj.github}>
-                        <img className={proj.github.length !== 0 ? '' : 'inactive'} src="/github.png" alt="Github Link"/>
-                    </a>
-                    <a href={proj.demo}>
-                        <img className={proj.demo.length !== 0 ? '' : 'inactive'} src="/link.png" alt="More Info"/>
-                    </a>
+                    { proj.github.length !== 0 ? 
+                        <a href={proj.github}>
+                            <img className={githubClass} src="/github.svg" alt="Github Repo"/>
+                        </a>
+                        :
+                        <span>
+                            <img className={demoClass} src="/github.svg" alt="Github Repo"/>
+                        </span>
+                    }
+                    { proj.demo.length !== 0 ? 
+                        <a href={proj.demo}>
+                            <img className={demoClass} src="/link.svg" alt="More Info"/>
+                        </a>
+                        :
+                        <span>
+                            <img className={demoClass} src="/link.svg" alt="More Info"/>
+                        </span>
+                    }
                 </div>
             </div>
             <h3>{proj.name}</h3>

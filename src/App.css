@@ -93,9 +93,9 @@ a:visited{
   font-size: 44pt;
 }
 
-.inactive{
-  opacity: 0.2;
-  cursor: not-allowed;
+div img.inactive{
+  opacity: 0.1;
+  pointer-events: none;
 }
 .invis{
   opacity: 0;
@@ -122,11 +122,19 @@ a:visited{
   content: '';
   position: absolute;
   z-index: -1;
-  width: 300px;
-  height: 300px;
-  top: 10px;
-  left: 40px;
-  background: black;
+  width: 18em;
+  height: 18em;
+  top: 1em;
+  left: 1em;
+  background: rgb(168, 207, 58);;
+  border-radius: 2px;
+  box-shadow: #000 5px 5px 10px;
+}
+.pic-canvas img{
+  margin: auto;
+  width: 18em;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.25) 5px 5px 5px;
 }
 
 /* Nav */
@@ -228,11 +236,18 @@ nav li{
 .project-techlist span:last-child{
   padding-right: 0;
 }
-.project-links a{
+.project-links a, .project-links span{
   padding-right: 0.5em;
 }
-.project-links a:last-child{
+.project-links a:last-child .project-links span:last-child{
   padding-right: 0;
+}
+.project-links img{
+  width: 2em;
+  opacity: 0.8;
+}
+.project-links img:hover{
+  opacity: 1;
 }
 
 /* Contact */
@@ -243,6 +258,14 @@ nav li{
 }
 .contact-links a{
   padding-right: 1em;
+}
+.contact-links img{
+  width: 4em;
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+}
+.contact-links img:hover{
+  opacity: 1;
 }
 
 /* Footer */
