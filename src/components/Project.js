@@ -17,7 +17,7 @@ export default function Project(props){
                         </a>
                         :
                         <span>
-                            <img className={demoClass} src="/github.svg" alt="Github Repo"/>
+                            <img className={githubClass} src="/github.svg" alt="Github Repo"/>
                         </span>
                     }
                     { proj.demo.length !== 0 ? 
