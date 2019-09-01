@@ -75,7 +75,7 @@ const Data = {
             description: "It's dark. Play with your friends in this web game and avoid being infected! Or be a zombie and bite some brainy humans. Literally can't play this alone, by the way. Intended to be a same-room game, the game is fun with some random yelling!",
             tech: ['Typescript', ],
             tags: ['Collaboration', 'Web Game'],
-            github: 'https://github.com/autobar/autobar-app',
+            github: 'https://github.com/SaltyQuetzals/csce-315-team-2',
             demo: 'http://tiny.cc/uz3'
         },
         {
@@ -104,7 +104,7 @@ const Data = {
         },
         {
             name: "Fiverr Buyer Request Notifier",
-            description: "Utilizes a web driver notifies sellers when a new potential customer posts a request. Conceived in the year of 2017 so it probably doesn't work but it's still neat!",
+            description: "Utilizes a web driver and notifies sellers when a new potential customer posts a request. Conceived in the year of 2017 so it probably doesn't work, but it's still neat!",
             tech: ['Selenium', 'Python'],
             tags: ['Tool'],
             github: 'https://github.com/BenWong1097/Fiverr-Buyer-Request-Notifier',
