@@ -3,11 +3,11 @@ const Data = {
     Skills: [
         {
             color: "rgb(112, 139, 38)",
-            list: ['C++', 'Javascript', 'Ruby', 'Python', 'Java', 'Lua', 'HTML/CSS']
+            list: ['C++', 'Javascript', 'Ruby', 'Python', 'Lua', 'HTML/CSS']
         },
         {
             color: "rgb(60, 58, 207)",
-            list: ['Rails', 'Angular', 'React', 'AWS', 'Docker', 'Git', 'Node.js']
+            list: ['Rails', 'Angular', 'React', 'Node.js', 'AWS', 'Docker', 'Git', 'Node.js']
         }
     ],
     About: [

@@ -219,9 +219,12 @@ nav li{
   background: rgb(62, 67, 46);
   border-radius: 5px;
   width: 275px;
-  height: 20em;
+  height: 21em;
   display: flex;
   flex-direction: column;
+}
+.project-container p{
+  margin: 0;
 }
 .project-techlist-container{
   flex-grow: 1;
