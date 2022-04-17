@@ -3,23 +3,50 @@ const Data = {
     Skills: [
         {
             color: "rgb(112, 139, 38)",
-            list: ['C++', 'Javascript', 'Ruby', 'Python', 'Lua', 'HTML/CSS']
+            list: [
+                'Python', 
+                'C++', 
+                'Javascript', 
+                'Ruby', 
+                'Lua', 
+                'HTML/CSS'
+            ]
         },
         {
             color: "rgb(60, 58, 207)",
-            list: ['Rails', 'Angular', 'React', 'Node.js', 'AWS', 'Docker', 'Git', 'Node.js']
+            list: [
+                'Next.js', 
+                'Docker', 
+                'Redis',
+                'Rails', 
+                'Angular', 
+                'React', 
+                'AWS', 
+                'Git'
+            ]
         }
     ],
     About: [
-        "I’m currently a Computer Engineering senior at Texas A&M University set to graduate May 2020.",
+        "I’m currently a Software Engineer at Duo Security, working on zero-trust technology.",
         "I’m based in Houston, Texas so you already know I’m a big foodie as well. I'd say I'm a pretty impulsive and open-minded person. I'm always open to explore the unknown and learn from it.",
-        "I love programming in order to solve problems that are pervasive."
+        "I love programming in order to solve problems that are pervasive, but have a particular interest in web security and game development."
     ],
-    Experience : [{
+    Experience : [
+        {
+            employer: 'Epic Systems',
+            role: 'Software Developer',
+            from: 'Aug 2020',
+            to: 'Mar 2020',
+            details: [
+                'Designed and implemented projects that streamline and automate core workflows for users in the healthcare industry with future enhancements and scalability in mind',
+                'Coordinated and led meetings with international customers to gather requirements and feedback for high-demand projects',
+                'Utilized practices such as asynchronous patterns in javascript, DRY, automated unit testing, and usability design reviews'
+        ]},
+        {
             employer: 'Texas A&M College of Architecture',
             role: 'Web Developer',
             from: 'Feb 2018',
-            to: 'Present',
+            to: 'May 2020',
             details: [
                 'Refactored client websites to work with Cascade CMS using Velocity, Javascript, and HTML/CSS, streamlining deployment of site changes',
                 'Initiated documentation efforts for Cascade and Django framework utilized by existing code, reducing on-boarding training times',
